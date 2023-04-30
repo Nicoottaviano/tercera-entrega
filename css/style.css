@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+body {
+  background-image: url(/imagenes/fondopelotita2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+header {
+  height: 100%;
+  position: sticky;
+  top: 0; }
+
+#icon-menu {
+  display: none; }
+
+.logo {
+  cursor: pointer; }
+
+.navbar {
+  background-color: lightblue; }
+
+.navbar-nav li a:hover {
+  text-decoration: underline; }
+
+.dropdown-menu {
+  background-color: lightblue; }
+
+.navbar-brand img {
+  width: 45px; }
+
+footer {
+  background-color: #090981; }
+
+.spotify {
+  margin: auto; }
+
+.redes-footer {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  justify-content: center; }
+  .redes-footer ul li {
+    display: inline-block;
+    margin-left: 25px; }
+
+.copyrigth {
+  color: #510dc6; }
+
+.bases-condiciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .bases-condiciones a {
+    text-decoration: none; }
+
+.main {
+  max-width: 100%;
+  height: calc(90vh + 30vw);
+  padding: 20px;
+  padding-top: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px; }
+
+.text-informacion-main {
+  width: 50%; }
+  .text-informacion-main h1 {
+    color: #cd4298;
+    font-size: 50px;
+    margin-top: 1px; }
+  .text-informacion-main p {
+    color: wheat;
+    font-size: 18px; }
+
+.boton-main {
+  display: flex;
+  margin-top: 25px; }
+
+.media-main img {
+  width: 100%;
+  margin-top: -40px;
+  border-radius: 25px;
+  border: solid #dd8520; }
+
+.boton-registro-main {
+  padding: 14px 50px;
+  background-color: black;
+  border: none;
+  color: yellowgreen;
+  cursor: pointer;
+  transition: background, color, 300ms; }
+  .boton-registro-main:hover {
+    background: lightcoral;
+    color: blue; }
+
+.boton-leer-mas-main {
+  padding: 14px 50px;
+  background-color: black;
+  border: none;
+  color: yellowgreen;
+  cursor: pointer;
+  transition: background, color, 300ms;
+  margin-left: 5px; }
+  .boton-leer-mas-main:hover {
+    background: lightcoral;
+    color: blue; }
+
+.container-banner {
+  margin-top: -180px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 85px;
+  border: solid 3px #dd8520; }
+  .container-banner:hover {
+    transform: scale(1.05); }
+
+.banner {
+  cursor: pointer;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  background-color: #0e0e4c; }
+
+.banner-text {
+  font-size: 15px; }
+
+.banner-icon-paleta {
+  width: 45%;
+  height: 100; }
+
+#icon-paleta {
+  width: 200px;
+  margin-left: 90px; }

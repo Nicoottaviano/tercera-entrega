@@ -1,0 +1,32 @@
+header {
+    height: 100%;
+    position: sticky;
+    top: 0;
+
+}
+#icon-menu{
+    display: none;
+}
+.logo{
+    cursor: pointer;
+    
+}
+.navbar{
+    background-color: lightblue;
+
+
+}
+.navbar-nav li a:hover{
+    text-decoration: underline;
+}
+
+
+.dropdown-menu{
+    background-color: lightblue;
+}
+
+.navbar-brand{
+    img{
+        width: 45px;
+    }
+}

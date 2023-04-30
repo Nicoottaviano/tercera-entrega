@@ -1,0 +1,87 @@
+.main{
+    max-width: 100%;
+    height: calc(90vh + 30vw);
+    padding: 20px;
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.text-informacion-main{
+    width: 50%;
+    h1{
+        color: rgb(205, 66, 152);
+        font-size: 50px;
+        margin-top: 1px;
+    }
+    p{
+        color: wheat;
+        font-size: 18px;
+    }
+    
+}
+.boton-main{
+    display: flex;
+    margin-top: 25px;
+}
+.media-main img{
+    width: 100%;
+    margin-top: -40px;
+    border-radius: 25px;
+    border: solid rgb(221, 133, 32);
+}
+.boton-registro-main{
+    padding: 14px 50px;
+    background-color: black;
+    border: none;
+    color: yellowgreen;
+    cursor: pointer;
+    transition:background, color, 300ms; 
+    &:hover{
+        background: lightcoral;
+    color: blue;
+    }
+}
+.boton-leer-mas-main{
+    padding: 14px 50px;
+    background-color: black;
+    border: none;
+    color: yellowgreen;
+    cursor: pointer;
+    transition:background, color, 300ms; 
+    margin-left: 5px;
+    &:hover{
+        background: lightcoral;
+    color: blue;
+    }
+}
+.container-banner{
+    margin-top: -180px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 85px;
+    border: solid 3px rgb(221, 133, 32);
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+.banner{
+    cursor: pointer;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(14, 14, 76);
+    
+}
+.banner-text{
+    font-size: 15px;
+}
+.banner-icon-paleta{
+    width: 45%;
+    height: 100;
+}
+#icon-paleta{
+    width: 200px;
+    margin-left: 90px;
+}
