@@ -11,12 +11,12 @@
 .text-informacion-main{
     width: 50%;
     h1{
-        color: rgb(205, 66, 152);
+        color: orange;
         font-size: 50px;
         margin-top: 1px;
     }
     p{
-        color: wheat;
+        color: beige;
         font-size: 18px;
     }
     
@@ -34,34 +34,38 @@
 .boton-registro-main{
     padding: 14px 50px;
     background-color: black;
-    border: none;
-    color: yellowgreen;
+    border: solid orange;
+    border-radius: 15px;
+    color: orange;
     cursor: pointer;
     transition:background, color, 300ms; 
     &:hover{
-        background: lightcoral;
-    color: blue;
+        transform: scale(1.05);
+        color: blue;
     }
 }
 .boton-leer-mas-main{
     padding: 14px 50px;
     background-color: black;
-    border: none;
-    color: yellowgreen;
+    border: solid orange;
+    border-radius: 15px;
+    color: orange;
     cursor: pointer;
     transition:background, color, 300ms; 
     margin-left: 5px;
     &:hover{
-        background: lightcoral;
-    color: blue;
+        transform: scale(1.05);
+        color: blue;
     }
 }
 .container-banner{
+    background-color: rgb(36, 34, 34);
     margin-top: -180px;
     margin-left: 45px;
     margin-right: 45px;
     margin-bottom: 85px;
     border: solid 3px rgb(221, 133, 32);
+    border-radius: 20px;
     &:hover{
         transform: scale(1.05);
     }
@@ -71,19 +75,19 @@
     height: 250px;
     display: flex;
     align-items: center;
-    background-color: rgb(14, 14, 76);
     
 }
-.banner-text{
-    font-size: 15px;
+.banner-text h2{
+    font-size: 25px;
+    margin-right: 10px;
+
 }
-.banner-icon-paleta{
-    width: 45%;
-    height: 100;
-}
+
+
 #icon-paleta{
-    width: 200px;
-    margin-left: 90px;
+    width: 180px;
+    margin-left: 40px;
+    margin-right: 30px;
 }
 @media (max-width: 420px){
     .text-informacion-main p{

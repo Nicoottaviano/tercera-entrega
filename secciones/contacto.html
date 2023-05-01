@@ -58,18 +58,21 @@
         <div class="container-form">
             <form class="formulario" action="#" method="get">
                 <p>Nombre y Apellido</p>
-                <input type="text" placeholder="Nombre y Apellido">
-                <p> Telefono</p>
-                <input type="number" placeholder="telefono">
-                <p>Mail</p>
-                <input type="text" placeholder="mail">
-                <p>Horario contacto</p>
+                <input type="text" placeholder="nombre y apellido">
+                <br><br>
+                <p> Teléfono</p>
+                <input type="number" placeholder="teléfono">
+                <br><br>
+                <p>Correo Electrónico</p>
+                <input type="text" placeholder="correo electrónico">
+                <br><br>
+                <p>Horario de contacto</p>
                 <ul>
                     <li>
-                        <p>Diurno</p>
+                        <small class="turnos">diurno</small>
                         <input type="radio" name="turno" value="diurno">
                     </li>
-                    <p>Nocturno</p>
+                    <small class="turnos">docturno</small>
                     <li>
                         <input type="radio" name="turno" value="nocturno">
                     </li>
@@ -81,7 +84,9 @@
                     <option value="Chile">Chile</option>
                     <option value="Uruguay">Uruguay</option>
                     <option value="Paraguay">Paraguay</option>
-                </select><input type="submit">
+                  </select>
+                  
+                  <input class="boton-enviar" type="submit">
 
             </form>
         </div>

@@ -12,7 +12,7 @@ header {
     
 }
 .navbar{
-    background-color: lightblue;
+    background-color: orange;
 
 
 }
@@ -22,11 +22,15 @@ header {
 
 
 .dropdown-menu{
-    background-color: lightblue;
+    background-color: orange;
 }
 
 .navbar-brand{
     img{
         width: 45px;
     }
+}
+.btn{
+    border: solid rgb(19, 19, 20);
+    color: black;
 }

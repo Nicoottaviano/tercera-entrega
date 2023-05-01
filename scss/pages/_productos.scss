@@ -13,9 +13,10 @@
         }
     }
     button{
-        background-color: rgb(248, 121, 172);
+        background-color: rgb(250, 123, 12);
         padding: 5px;
-        color: beige;
+        color: black;
+        border: solid black;
         border-radius: 10px;
         box-shadow: 0 5px 10px;
         &:hover{
@@ -23,7 +24,7 @@
         }
     }
     p{
-        color: rgb(138, 227, 227);
+        color: beige;
         display: flex;
         justify-content: center;
         margin-top: 5px;

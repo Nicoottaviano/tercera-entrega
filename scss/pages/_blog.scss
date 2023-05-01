@@ -1,9 +1,9 @@
 .parrafo-blog{
     margin-top: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     p{
-        color: rgb(0, 0, 0);
+        color: beige;
     }
 }
 .blog{
@@ -12,7 +12,7 @@
     justify-content: center;
     color: orange;
     h1{
-        color:rgb(205, 66, 152);
+        color:orange;
     }
 }
 .video-blog{
@@ -22,10 +22,12 @@
     margin-top: 45px;
     iframe{
         max-width: 560px;
+        border: solid orange;
         border-radius: 15px;
     }
     img{
         width: 400px;
+        border: solid orange;
         border-radius: 15px;
     }
 }
