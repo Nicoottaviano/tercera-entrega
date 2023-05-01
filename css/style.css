@@ -4,8 +4,8 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 body {
-  background-image: url(/imagenes/posiblefondo.jpg);
-  background-size: cover; }
+  background: #6b3e8f;
+  background: linear-gradient(0deg, #6b3e8f 25%, rgba(178, 133, 94, 0.997812) 60%, #f5dbcf 92%); }
 
 header {
   height: 100%;
@@ -31,7 +31,7 @@ header {
   width: 45px; }
 
 footer {
-  background-color: #090981; }
+  background-color: #3c156b; }
   footer .spotify {
     margin: auto; }
 
