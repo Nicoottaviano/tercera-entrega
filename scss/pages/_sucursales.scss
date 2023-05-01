@@ -1,0 +1,32 @@
+.container-flex-sucursales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    p{
+        color: aqua;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    
+}
+.carousel{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-item h5{
+    color: beige;
+    font-size: 40px;
+}
+.sedes-titulo{
+    display: grid;
+    margin-top: 170px;
+    justify-content: center;
+    color: rgb(205, 66, 152);
+}
+@media (max-width: 420px){
+    footer{
+        margin-top: 100px;
+    }
+}

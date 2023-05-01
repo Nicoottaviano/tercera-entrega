@@ -1,0 +1,47 @@
+.parrafo-blog{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    p{
+        color: rgb(0, 0, 0);
+    }
+}
+.blog{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    color: orange;
+    h1{
+        color:rgb(205, 66, 152);
+    }
+}
+.video-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 45px;
+    iframe{
+        max-width: 560px;
+        border-radius: 15px;
+    }
+    img{
+        width: 400px;
+        border-radius: 15px;
+    }
+}
+@media (max-width: 420px){
+    .parrafo-blog p{
+        margin-top: -75px;
+       }
+       .video-blog {
+        img{
+            max-width: 360px;
+            margin-top: 45px;
+            margin-bottom: 45px;
+        }
+        iframe{
+            width: 360px;
+            border-radius: 15px;
+        }
+       }
+}

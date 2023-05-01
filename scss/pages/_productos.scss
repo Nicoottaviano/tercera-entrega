@@ -1,0 +1,41 @@
+.container-grid-productos{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    img{
+        border-radius: 10px;
+        border: solid orange;
+        cursor: pointer;
+        &:hover{
+            scale: 1.05;
+        }
+    }
+    button{
+        background-color: rgb(248, 121, 172);
+        padding: 5px;
+        color: beige;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    p{
+        color: rgb(138, 227, 227);
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    div{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 420px){
+    .container-grid-productos{
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+       }
+}

@@ -4,9 +4,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 body {
-  background-image: url(/imagenes/fondopelotita2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(/imagenes/posiblefondo.jpg);
   background-size: cover; }
 
 header {
@@ -34,9 +32,8 @@ header {
 
 footer {
   background-color: #090981; }
-
-.spotify {
-  margin: auto; }
+  footer .spotify {
+    margin: auto; }
 
 .redes-footer {
   display: flex;
@@ -136,3 +133,168 @@ footer {
 #icon-paleta {
   width: 200px;
   margin-left: 90px; }
+
+@media (max-width: 420px) {
+  .text-informacion-main p {
+    display: none; }
+  .container-banner {
+    margin-top: 120px;
+    margin-left: 1px;
+    margin-right: 1px; }
+  .banner-icon-paleta {
+    display: none; }
+  .banner-text h2 {
+    font-size: 20px;
+    margin: auto; }
+  .text-informacion-main {
+    display: grid;
+    justify-content: start;
+    margin-top: -40px; }
+    .text-informacion-main h1 {
+      font-size: 25px;
+      width: 45px;
+      margin-top: 50px; }
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-top: -45px; }
+    .main h1 {
+      width: 380px;
+      margin-top: 110px; }
+  .navbar-toggler {
+    width: 45px; }
+  .boton-main {
+    display: none; }
+  .media-main img {
+    margin-top: 1px;
+    width: 250px; }
+  .media-main {
+    display: flex;
+    flex-direction: column;
+    margin: auto; } }
+
+.parrafo-blog {
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-right: 10px; }
+  .parrafo-blog p {
+    color: black; }
+
+.blog {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  color: orange; }
+  .blog h1 {
+    color: #cd4298; }
+
+.video-blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 45px; }
+  .video-blog iframe {
+    max-width: 560px;
+    border-radius: 15px; }
+  .video-blog img {
+    width: 400px;
+    border-radius: 15px; }
+
+@media (max-width: 420px) {
+  .parrafo-blog p {
+    margin-top: -75px; }
+  .video-blog img {
+    max-width: 360px;
+    margin-top: 45px;
+    margin-bottom: 45px; }
+  .video-blog iframe {
+    width: 360px;
+    border-radius: 15px; } }
+
+.container-form {
+  background-color: #070430;
+  margin-top: 100px;
+  margin-left: 245px;
+  margin-right: 245px;
+  padding: 15px 15px 45px 45px;
+  display: flex;
+  justify-content: center;
+  border: solid black;
+  border-radius: 10px; }
+
+.form-titulo {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  color: #cd4298; }
+
+.formulario p {
+  font-size: 25px;
+  color: orange; }
+
+@media (max-width: 420px) {
+  .container-form {
+    margin: auto; } }
+
+.container-grid-productos {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr 2fr; }
+  .container-grid-productos img {
+    border-radius: 10px;
+    border: solid orange;
+    cursor: pointer; }
+    .container-grid-productos img:hover {
+      scale: 1.05; }
+  .container-grid-productos button {
+    background-color: #f879ac;
+    padding: 5px;
+    color: beige;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px; }
+    .container-grid-productos button:hover {
+      transform: scale(1.1); }
+  .container-grid-productos p {
+    color: #8ae3e3;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px; }
+  .container-grid-productos div {
+    margin-bottom: 15px; }
+
+@media (max-width: 420px) {
+  .container-grid-productos {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column; } }
+
+.container-flex-sucursales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .container-flex-sucursales p {
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px; }
+
+.carousel {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; }
+
+.carousel-item h5 {
+  color: beige;
+  font-size: 40px; }
+
+.sedes-titulo {
+  display: grid;
+  margin-top: 170px;
+  justify-content: center;
+  color: #cd4298; }
+
+@media (max-width: 420px) {
+  footer {
+    margin-top: 100px; } }

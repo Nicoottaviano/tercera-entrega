@@ -1,0 +1,28 @@
+.container-form{
+    background-color: rgb(7, 4, 48);
+    margin-top: 100px;
+    margin-left: 245px;
+    margin-right: 245px;
+    padding: 15px 15px 45px 45px;
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    border-radius: 10px;
+
+    }
+    .form-titulo{
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+        color: rgb(205, 66, 152);
+    }
+    .formulario p{
+        font-size: 25px;
+        color: orange;
+    }
+    @media (max-width: 420px){
+        .container-form{
+            margin: auto;
+        
+           }
+    }
