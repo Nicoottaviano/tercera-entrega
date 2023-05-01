@@ -16,14 +16,11 @@
     overflow: hidden;
 }
 .carousel-item h5{
-    color: beige;
+    color: $titulos;
     font-size: 40px;
 }
 .sedes-titulo{
-    display: grid;
-    margin-top: 170px;
-    justify-content: center;
-    color: orange;
+    @extend .titulos;
 }
 @media (max-width: 420px){
     footer{

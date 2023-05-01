@@ -11,12 +11,12 @@
 .text-informacion-main{
     width: 50%;
     h1{
-        color: orange;
+        color: $titulos;
         font-size: 50px;
         margin-top: 1px;
     }
     p{
-        color: beige;
+        color: $letra-chica;
         font-size: 18px;
     }
     

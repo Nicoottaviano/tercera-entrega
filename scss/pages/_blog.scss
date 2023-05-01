@@ -3,7 +3,7 @@
     margin-left: 40px;
     margin-right: 40px;
     p{
-        color: beige;
+        color: $letra-chica;
     }
 }
 .blog{
@@ -12,7 +12,8 @@
     justify-content: center;
     color: orange;
     h1{
-        color:orange;
+        @extend .titulos;
+        color: $titulos;
     }
 }
 .video-blog{

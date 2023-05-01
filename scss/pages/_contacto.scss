@@ -11,20 +11,17 @@
 
     }
     .form-titulo{
-        margin-top: 120px;
-        display: flex;
-        justify-content: center;
-        color: orange;
+        @extend .titulos;
     }
     .formulario{
         p{
             font-size: 20px;
-            color: beige;
+            color: $letra-chica;
             padding: -20px;
             margin: auto;
         }
         small{
-            color: beige;
+            color: $letra-chica;
             display: flex;
         }
     }

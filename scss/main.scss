@@ -1,5 +1,12 @@
+// ------VARIABLES-----//
+@import './utilities/colors';
 
-@import './pages/reseteo';
+//---RESET---//
+@import './utilities/reseteo';
+@import './utilities/extend-mixin';
+
+
+
 @import './pages/body';
 @import './pages/header';
 @import './pages/footer';
