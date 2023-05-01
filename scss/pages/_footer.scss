@@ -19,6 +19,14 @@ footer{
 }
 .copyrigth{
     color: rgb(81, 13, 198);
+    a{
+        &:link {
+            color: red;
+        }
+        &:link {
+            color: $titulos;
+        }
+    }
     
 }
 .bases-condiciones{
